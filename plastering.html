@@ -6,6 +6,11 @@
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
 		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<style>
+			.title {
+				margin-left: 400px;
+				position: relative;
+				bottom: 200px;
+			}
 			#trowel {
 				width: 20%;
 				height: 15%;
@@ -34,28 +39,37 @@
 <body>
 		<img id="van" src="img\van.jpg" />
 		<img id="trowel" src="img\trowel.jpg" />
-		<!--navigation bar-->		<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="title">
+			<h1> CG Plastering and General building</h1>
+		</div>
+		<!--navigation bar-->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="#">CG Plastering and General Building</a>
 			</div>
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
+						<li><a href="plastering.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
 						<li><a href="#">Portfolio</a></li>
 						<li><a href="#">Book Online</a></li>
 					</ul>
 			</div>
 		</nav>
 		<!--sections with buttons to navigate to pages-->
-		<div class="container2">
+		<div class="container3">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-4 centered">
 					<h1>About Us</h1>
 						<p>Clive Garstang always had a drive for success, starting work at the young age of 16. He started at the bottom, Labouring and learning the plastering trade, but was determined to learn everything there was to know about plastering. In 1984 he had finally... </p>
-						<a href="#" class="btn btn-success btn-lg">Read More!</a>
+						<a href="about.html" class="btn btn-success btn-lg">Read More!</a>
 				</div>
-				<div class="col-md-6">
+			</div>
+		</div>
+		<hr>
+		<div class="container3">
+			<div class="row">
+				<div class="col-md-4 centered">
 					<h1>Portfolio</h1>
 						<p> From walls to ceilings, there have been many jobs that we've done over the years that have left our customers happy and satisfied! Our portfolio has a range of images to show you our work from start to finish!</p>
 						<a href="#" class="btn btn-danger btn-lg">Take A Look!</a>
