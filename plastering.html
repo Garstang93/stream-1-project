@@ -5,25 +5,20 @@
 	<title>CG Plastering</title>
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
 		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
+		<link href="https://fonts.googleapis.com/css?family=Acme|Cinzel|Courgette|Lobster+Two" rel="stylesheet">
 		<style>
 			.title {
-				margin-left: 400px;
+				margin-left: 50px;
+				margin-bottom: 100px;
 				position: relative;
-				bottom: 200px;
+				margin-top: 100px;
 			}
-			#trowel {
-				width: 20%;
-				height: 15%;
-				border: 5px solid black;
-				margin-left: 737px;
-			}
-			#van {
-				width: 25%;
-				height: 25%;
-				border: 5px solid black;
+			.title h1 {
+				position: relative;
+				width: 300px;
 			}
 			body {
-				background-color: #ffcc66;
+				background: linear-gradient(to bottom, #C0C0C0 10%, #6699CC 50%, #003366 70%, #000044 100%);
 			}
 			.container2 {
 				width: 100%;
@@ -31,16 +26,55 @@
 				margin-top: 15px;
 			}
 			.container3 {
-				width: 50%
 				padding: 10px;
-				margin-left: 550px;
+			}
+			.navbar {
+				width: 100%;
+				height: 60px;
+				font-size: 20px;
+				font-family: 'Cinzel', serif;
+				font-style: italic;
+			}
+			.navbar-brand {
+				font-size: 20px;
+				font-family: 'Cinzel', serif;
+				font-style: italic;
+			}
+			h1 {
+				font-family: 'Cinzel', serif;
+				color: #000000;
+			}
+			.container3 p {
+				font-family: 'Cinzel', serif;
+				color: #000000;
+			}
+			footer {
+				width: 100%;
+				height: 100px;
+				display: block;
+				background-color: #101111;
+				margin-bottom: -20px;
+
+			}
+			footer p {
+				color: white;
+				font-size: 16px;
+				margin-left: 20px;
+			}
+			footer a {
+				display: block;
+				color: white;
+				font-family: 'Cinzel', serif;
+				font-size: 16px;
+				margin-left: 20px;
+			}
+
 		</style>
 </head>
 <body>
-		<img id="van" src="img\van.jpg" />
-		<img id="trowel" src="img\trowel.jpg" />
+
 		<div class="title">
-			<h1> CG Plastering and General building</h1>
+			<h1><b>5 Star Quality Plastering at a very reasonable price!</b></h1>
 		</div>
 		<!--navigation bar-->
 		<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -53,39 +87,40 @@
 						<li><a href="about.html">About</a></li>
 						<li><a href="portfolio.html">Portfolio</a></li>
 						<li><a href="book.html">Book Online</a></li>
+						<li><a href="#">Testimonies</a></li>
 					</ul>
 			</div>
 		</nav>
 		<!--sections with buttons to navigate to pages-->
 		<div class="container3">
 			<div class="row">
-				<div class="col-md-4 centered">
+				<div class="col-md-4">
 					<h1>About Us</h1>
 						<p>Clive Garstang always had a drive for success, starting work at the young age of 16. He started at the bottom, Labouring and learning the plastering trade, but was determined to learn everything there was to know about plastering. In 1984 he had finally... </p>
 						<a href="about.html" class="btn btn-success btn-lg">Read More!</a>
 				</div>
-			</div>
-		</div>
-		<hr>
 		<div class="container3">
 			<div class="row">
-				<div class="col-md-4 centered">
+				<div class="col-md-4">
 					<h1>Portfolio</h1>
 						<p> From walls to ceilings, there have been many jobs that we've done over the years that have left our customers happy and satisfied! Our portfolio has a range of images to show you our work from start to finish!</p>
 						<a href="portfolio.html" class="btn btn-danger btn-lg">Take A Look!</a>
 					</div>
-				</div>
-			</div>
-			<hr>
 		<div class="container3">
 			<div class="row">
-				<div class="col-md-4 centered">
+				<div class="col-md-4">
 					<h1>Book Online!</h1>
 						<p>We're now taking bookings for quotes online! Just fill out our form and we'll contact you ASAP with our availability!</p>
 						<a href="book.html" class="btn btn-warning btn-lg">Book Now!</a>
 				</div>
 			</div>
 		</div>
+		<!-- My footer -->
+		<footer>
+		<p>Website created by Grant Garstang</p>
+		<a href="#">Contact Grant</a>
+		<a href="#">Contact CG Plastering and General Building</a>
+		</footer>
 
 
 </body>
